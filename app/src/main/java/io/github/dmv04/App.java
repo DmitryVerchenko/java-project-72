@@ -1,4 +1,4 @@
-package hexlet.code;
+package io.github.dmv04;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -10,17 +10,17 @@ import java.util.stream.Collectors;
 import gg.jte.ContentType;
 import gg.jte.TemplateEngine;
 import gg.jte.resolve.ResourceCodeResolver;
-import hexlet.code.controller.RootController;
-import hexlet.code.controller.UrlCheckController;
-import hexlet.code.controller.UrlsController;
-import hexlet.code.repository.BaseRepository;
-import hexlet.code.util.NamedRoutes;
 import io.javalin.rendering.template.JavalinJte;
 
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
 
+import io.github.dmv04.controller.RootController;
+import io.github.dmv04.controller.UrlCheckController;
+import io.github.dmv04.controller.UrlsController;
+import io.github.dmv04.repository.BaseRepository;
+import io.github.dmv04.util.NamedRoutes;
 import io.javalin.Javalin;
 import lombok.extern.slf4j.Slf4j;
 

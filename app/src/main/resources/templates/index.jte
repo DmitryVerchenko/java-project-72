@@ -1,4 +1,4 @@
-@import hexlet.code.dto.BasePage
+@import io.github.dmv04.dto.BasePage
 @param BasePage page
 
 @template.layout.page(page = page,

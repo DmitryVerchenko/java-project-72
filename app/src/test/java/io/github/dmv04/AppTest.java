@@ -1,10 +1,9 @@
-package hexlet.code;
+package io.github.dmv04;
 
-import hexlet.code.model.Url;
-import hexlet.code.repository.UrlCheckRepository;
-import hexlet.code.repository.UrlRepository;
-import hexlet.code.util.NamedRoutes;
-
+import io.github.dmv04.model.Url;
+import io.github.dmv04.repository.UrlCheckRepository;
+import io.github.dmv04.repository.UrlRepository;
+import io.github.dmv04.util.NamedRoutes;
 import io.javalin.Javalin;
 import io.javalin.testtools.JavalinTest;
 import okhttp3.mockwebserver.MockResponse;

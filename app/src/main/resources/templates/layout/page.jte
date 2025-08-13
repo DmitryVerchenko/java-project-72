@@ -1,6 +1,6 @@
 @import gg.jte.Content
-@import hexlet.code.util.NamedRoutes
-@import hexlet.code.dto.BasePage
+@import io.github.dmv04.util.NamedRoutes
+@import io.github.dmv04.dto.BasePage
 @param BasePage page
 @param Content content
 

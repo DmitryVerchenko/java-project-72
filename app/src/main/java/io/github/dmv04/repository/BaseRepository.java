@@ -1,4 +1,4 @@
-package hexlet.code.repository;
+package io.github.dmv04.repository;
 
 import com.zaxxer.hikari.HikariDataSource;
 

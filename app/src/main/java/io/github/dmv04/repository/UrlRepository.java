@@ -1,6 +1,4 @@
-package hexlet.code.repository;
-
-import hexlet.code.model.Url;
+package io.github.dmv04.repository;
 
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -9,6 +7,8 @@ import java.time.Instant;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+
+import io.github.dmv04.model.Url;
 
 public class UrlRepository extends BaseRepository {
     public static void save(Url url) {

@@ -1,7 +1,7 @@
-@import hexlet.code.dto.urls.UrlsPage
-@import hexlet.code.repository.UrlCheckRepository
-@import hexlet.code.util.NamedRoutes
-@import hexlet.code.util.TimeFormatter
+@import io.github.dmv04.dto.urls.UrlsPage
+@import io.github.dmv04.repository.UrlCheckRepository
+@import io.github.dmv04.util.NamedRoutes
+@import io.github.dmv04.util.TimeFormatter
 @param UrlsPage page
 
 @template.layout.page(page = page,

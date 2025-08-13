@@ -1,4 +1,4 @@
-package hexlet.code.util;
+package io.github.dmv04.util;
 
 public class NamedRoutes {
     public static String rootPath() {

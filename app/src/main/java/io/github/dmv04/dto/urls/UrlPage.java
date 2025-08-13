@@ -1,13 +1,14 @@
-package hexlet.code.dto.urls;
+package io.github.dmv04.dto.urls;
 
-import hexlet.code.dto.BasePage;
-import hexlet.code.model.Url;
-import hexlet.code.model.UrlCheck;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
 import java.util.List;
+
+import io.github.dmv04.dto.BasePage;
+import io.github.dmv04.model.Url;
+import io.github.dmv04.model.UrlCheck;
 
 @AllArgsConstructor
 @Getter

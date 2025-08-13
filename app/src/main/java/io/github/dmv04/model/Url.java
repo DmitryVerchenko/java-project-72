@@ -1,4 +1,4 @@
-package hexlet.code.model;
+package io.github.dmv04.model;
 
 import lombok.Getter;
 import lombok.Setter;

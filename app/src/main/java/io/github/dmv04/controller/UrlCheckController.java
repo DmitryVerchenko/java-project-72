@@ -1,10 +1,10 @@
-package hexlet.code.controller;
+package io.github.dmv04.controller;
 
-import hexlet.code.model.Url;
-import hexlet.code.model.UrlCheck;
-import hexlet.code.repository.UrlCheckRepository;
-import hexlet.code.repository.UrlRepository;
-import hexlet.code.util.NamedRoutes;
+import io.github.dmv04.model.Url;
+import io.github.dmv04.model.UrlCheck;
+import io.github.dmv04.repository.UrlCheckRepository;
+import io.github.dmv04.repository.UrlRepository;
+import io.github.dmv04.util.NamedRoutes;
 import io.javalin.http.Context;
 import io.javalin.http.NotFoundResponse;
 import kong.unirest.HttpResponse;

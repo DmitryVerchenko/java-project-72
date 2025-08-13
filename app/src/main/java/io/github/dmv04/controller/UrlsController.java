@@ -1,14 +1,14 @@
-package hexlet.code.controller;
+package io.github.dmv04.controller;
 
-import hexlet.code.dto.BasePage;
-import hexlet.code.dto.urls.UrlPage;
-import hexlet.code.dto.urls.UrlsPage;
-import hexlet.code.model.Url;
-import hexlet.code.model.UrlCheck;
-import hexlet.code.repository.UrlCheckRepository;
-import hexlet.code.repository.UrlRepository;
-import hexlet.code.util.NamedRoutes;
-import hexlet.code.util.NormalizedData;
+import io.github.dmv04.dto.BasePage;
+import io.github.dmv04.dto.urls.UrlPage;
+import io.github.dmv04.dto.urls.UrlsPage;
+import io.github.dmv04.model.Url;
+import io.github.dmv04.model.UrlCheck;
+import io.github.dmv04.repository.UrlCheckRepository;
+import io.github.dmv04.repository.UrlRepository;
+import io.github.dmv04.util.NamedRoutes;
+import io.github.dmv04.util.NormalizedData;
 import io.javalin.http.Context;
 import io.javalin.http.NotFoundResponse;
 

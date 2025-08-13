@@ -1,6 +1,6 @@
-@import hexlet.code.dto.urls.UrlPage
-@import hexlet.code.util.NamedRoutes
-@import hexlet.code.util.TimeFormatter
+@import io.github.dmv04.dto.urls.UrlPage
+@import io.github.dmv04.util.NamedRoutes
+@import io.github.dmv04.util.TimeFormatter
 @param UrlPage page
 
 @template.layout.page(page = page,

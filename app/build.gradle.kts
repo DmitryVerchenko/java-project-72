@@ -10,7 +10,7 @@ plugins {
     id("com.github.johnrengelman.shadow") version "8.1.1"
 }
 
-group = "hexlet.code"
+group = "io.github.dmv04"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -18,7 +18,7 @@ repositories {
 }
 
 application {
-    mainClass.set("hexlet.code.App")
+    mainClass.set("io.github.dmv04.App")
 }
 
 dependencies {

@@ -1,4 +1,4 @@
-package hexlet.code.dto;
+package io.github.dmv04.dto;
 
 import lombok.Getter;
 import lombok.Setter;
